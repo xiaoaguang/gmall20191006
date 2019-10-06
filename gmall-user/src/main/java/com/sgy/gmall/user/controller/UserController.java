@@ -14,13 +14,10 @@ public class UserController {
     @Autowired
     UserService userService;
 
-
     @RequestMapping("index")
     @ResponseBody
     public String index(){
         return "hello user";
     }
-
-
 
 }
